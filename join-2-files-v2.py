@@ -23,9 +23,9 @@ def processOfMassiv(v):
 def printNameData(k, v):
     m, n = processOfMassiv(v)
     if len(m) == len(n):
-            for i in range(0, len(m)):
-                for j in range(0, len(m)):
-                    print(k + '\t' + m[i] + '\t' + n[j])
+        for i in range(0, len(m)):
+            for j in range(0, len(m)):
+                print(k + '\t' + m[i] + '\t' + n[j])
 
 
 for line in sys.stdin:
