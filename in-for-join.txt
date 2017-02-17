@@ -4,4 +4,6 @@ user2	query:стэпик
 user2	query:стэпик курсы
 user2	url:stepic.org
 user2	url:stepic.org/explore/courses
+2	query:a
+2	url:b
 user3	query:вконтакте

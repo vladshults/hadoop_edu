@@ -3,13 +3,12 @@
 
 
 import sys
-import re
 
 dct = {}
 
 
 for line in sys.stdin:
-    key = re.split('\t|\s|\s{2}|\s{3}', line.strip())[0]
+    key = line.strip().split()[0]
     val = line.replace(key, '').strip()
     if key in dct.keys():
         upd = dct.get(key) + ';' + val
