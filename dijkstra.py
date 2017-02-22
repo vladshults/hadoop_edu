@@ -8,7 +8,6 @@ import sys
 d = {}
 ds = {}
 l = []
-numbers = []
 
 
 for line in sys.stdin:
